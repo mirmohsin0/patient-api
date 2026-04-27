@@ -1,15 +1,36 @@
-# Patient API (FastAPI)
+# 🚀 Patient API (FastAPI)
 
-A simple REST API that manages patient data using JSON storage.
+A RESTful API built with FastAPI to manage patient records using JSON storage.
 
-## Features
+---
+
+## 🔥 Features
 - Get all patients
-- Add new patient
-- Update patient
-- Delete patient
+- Add a new patient
+- Update patient details
+- Delete patient records
 
-## Run Locally
+---
+
+## 🛠 Tech Stack
+- Python
+- FastAPI
+- Uvicorn
+
+---
+
+## 📂 Project Structure
+patient-api/
+│── main.py
+│── patient.json
+│── README.md
+│── .gitignore
+
+---
+
+## ⚙️ Installation & Setup
 
 ```bash
+git clone https://github.com/mirmohsin0/patient-api.git
+cd patient-api
 pip install fastapi uvicorn
-uvicorn main:app --reload
